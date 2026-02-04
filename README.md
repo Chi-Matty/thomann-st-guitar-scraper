@@ -4,13 +4,13 @@ The objective was to reliably extract structured ST-style guitar product data de
 
 I built a Python scraper using Playwright that simulates real browser behavior to extract ST-style guitar listings from Thomann UK.
 
-## The scraper:
+### The scraper:
 	•	Automatically handles cookie consent interruptions
 	•	Navigates client-side pagination driven by UI interactions
 	•	Waits for dynamic product content to fully render
 	•	Extracts product data across pages
 
-## Tech Stack
+### Tech Stack
 	•	Python
 	•	Playwright (Sync API)
 	•	Chromium (headless browser automation)
